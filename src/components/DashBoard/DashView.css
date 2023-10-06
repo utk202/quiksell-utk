@@ -1,0 +1,18 @@
+.utkdashContainer{
+    display: grid;
+    /* align-items: flex-start; */
+    gap: 16px;
+    /* flex-wrap: wrap; */
+    background:whitesmoke;
+    padding: 5px 10px;
+    grid-template-columns: repeat(5,1fr);
+}
+
+.dashCardContainer{
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    flex-direction: column;
+    gap: 5px;
+    width : 300px;
+}
